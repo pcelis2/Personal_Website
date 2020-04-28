@@ -15,7 +15,7 @@ body {
 
 .navbar-brand {
     font-family: 'Libre Barcode 39 Extended Text', cursive;
-    color: #fffdd0 !important;
+    color: white !important;
     font-size: 2rem;
 }
 
@@ -24,7 +24,7 @@ body {
 
 #quick-about-me {
     background-color: #30475e;
-    color: #fffdd0;
+    color: white;
 }
 
 .profile-quick-points {
@@ -41,7 +41,7 @@ body {
 /* Attributes */
 
 #attributes {
-    background-color: #fffdd0;
+    background-color: white;
     padding: 7% 15%;
 }
 
@@ -93,7 +93,7 @@ body {
 }
 
 .project-title {
-    color: #fffdd0;
+    color: white;
 }
 
 .project-line-break {
@@ -105,7 +105,7 @@ body {
 .project-card {
     text-align: left;
     height: 100%;
-    background-color: #fffdd0;
+    background-color: white;
     padding: 5%;
 }
 
@@ -142,7 +142,7 @@ body {
 /* Download Resume */
 
 #download-resume {
-    background-color: #fffdd0 !important;
+    background-color: white !important;
     text-align: center;
     padding-top: 7%;
     padding-bottom: 7%;
@@ -159,7 +159,7 @@ body {
     border-style: none;
     border-top-style: solid;
     border-color: red;
-    background-color: #fffdd0;
+    background-color: white;
 }
 
 #download-resume .btn {
@@ -197,11 +197,11 @@ body {
 }
 
 #footer a {
-    color: #fffdd0;
+    color: white;
 }
 
 #footer p {
-    color: #fffdd0;
+    color: white;
 }
 
 @media (max-width:575px) {
