@@ -1,0 +1,212 @@
+body {
+    text-align: center;
+}
+
+
+/*  Navigation Bar */
+
+.container-fluid {
+    padding: 3%;
+}
+
+#navigation-bar {
+    background-color: #30475e;
+}
+
+.navbar-brand {
+    font-family: 'Libre Barcode 39 Extended Text', cursive;
+    color: wheat !important;
+    font-size: 2rem;
+}
+
+
+/* About Me */
+
+#quick-about-me {
+    background-color: #30475e;
+    color: wheat;
+}
+
+.profile-quick-points {
+    padding: 7% 15%;
+}
+
+.profile-picture {
+    height: 350px;
+    border-radius: 100%;
+    border: 8px solid #ba6b57;
+}
+
+
+/* Attributes */
+
+#attributes {
+    background-color: wheat;
+    padding: 7% 15%;
+}
+
+#attributes ul {
+    margin-left: 0;
+}
+
+#attributes p {
+    color: gray;
+    margin: 0;
+    text-align: center;
+    font-size: small;
+    list-style-type: '-';
+}
+
+.attribute-title {
+    color: #ba6b57;
+}
+
+.attribute-line-break {
+    border-style: none;
+    border-top-style: solid;
+    border-color: #ba6b57;
+}
+
+.attribute {
+    padding: 5%;
+}
+
+.attribute-icon {
+    margin-bottom: 1rem;
+    color: #30475e;
+}
+
+.attribute-icon:hover {
+    color: #ba6b57;
+}
+
+.attribute-header {
+    color: #30475e;
+}
+
+
+/* Projects */
+
+#projects {
+    background-color: #30475e;
+    padding: 7% 15%;
+}
+
+.project-title {
+    color: wheat;
+}
+
+.project-line-break {
+    border-style: none;
+    border-top-style: solid;
+    border-color: #ba6b57;
+}
+
+.project-card {
+    text-align: left;
+    height: 100%;
+    background-color: wheat;
+    padding: 5%;
+}
+
+.project-col {
+    margin-bottom: 25px;
+}
+
+.project-card-icon {
+    color: #ba6b57;
+}
+
+#projects .card-title {
+    color: #30475e;
+}
+
+#projects .card-body {
+    color: #30475e;
+}
+
+#projects .card-text-technologies {
+    margin-bottom: 0;
+}
+
+#projects .btn {
+    width: 75%;
+    background-color: #30475e;
+}
+
+#projects .done-project:hover {
+    background-color: #ba6b57;
+}
+
+
+/* Download Resume */
+
+#download-resume {
+    background-color: wheat !important;
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.download-resume-card {
+    background-color: #30475e;
+    color: white;
+    float: none;
+    margin: 0 auto;
+}
+
+.resume-break-point {
+    border-style: none;
+    border-top-style: solid;
+    border-color: red;
+    background-color: wheat;
+}
+
+#download-resume .btn {
+    background-color: #ba6b57;
+    color: white;
+}
+
+
+/* Footer */
+
+#footer {
+    background-color: #30475e;
+    text-align: center;
+    align-content: center;
+}
+
+#footer hr {
+    border-style: none;
+    border-top-style: solid;
+    border-color: #ba6b57;
+    border-width: 5px;
+    margin: 0;
+    width: 100%;
+}
+
+#footer .container {
+    padding-top: 3%;
+    padding-bottom: 1%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.footer-items {
+    padding-top: 7%;
+}
+
+#footer a {
+    color: wheat;
+}
+
+#footer p {
+    color: wheat;
+}
+
+@media (max-width:575px) {
+    #footer .container {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
