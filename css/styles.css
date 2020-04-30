@@ -138,6 +138,15 @@ body {
     background-color: #ba6b57;
 }
 
+#current-skillset {
+    background-color: #30475e;
+    padding-bottom: 15%;
+}
+
+.current-skillset {
+    margin-bottom: 25px;
+}
+
 
 /* Download Resume */
 
