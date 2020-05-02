@@ -15,7 +15,7 @@ var chart = new Chart(ctx, {
         labels: ['C/C++', 'Java', 'Dart', 'Flutter', 'HTML', 'CSS', 'JS', 'Angular'],
         datasets: [{
             label: 'Current Mastery',
-            data: [4, 4, 3, 3, 2, 2, 2, 1],
+            data: [4, 4, 3, 3, 2, 2, 3, 2],
             backgroundColor: ['#ba6b57', '#ba6b57', '#ba6b57', '#ba6b57', '#ba6b57', '#ba6b57', '#ba6b57', '#ba6b57', ],
             borderColor: [],
             borderWidth: 1
