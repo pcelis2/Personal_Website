@@ -185,62 +185,62 @@ var chart = new Chart(ctx, {
     },
   },
 });
-///////////////////////////////////////////
-// SpringBoot Chart
-var ctx = document.getElementById("spring-boot-dev-chart");
-// ctx.height = document.getElementById("full-stack-web-dev-chart").offsetHeight;
-var yLabels = {
-  0: "Starting",
-  1: "File Structure",
-  2: "Components",
-  3: "Template Syntax",
-  4: "Events and Forms",
-  5: "Service and HTTP",
-  6: "Input and Output",
-  7: "Angular Routing",
-  8: "Personal Projects",
-};
-var chart = new Chart(ctx, {
-  type: "horizontalBar",
-  data: {
-    labels: [""],
-    datasets: [
-      {
-        label: "Current Stage",
-        data: [7],
-        backgroundColor: ["#ba6b57"],
-        borderColor: [],
-        borderWidth: 1,
-      },
-    ],
-  },
-  options: {
-    // responsive: true,
-    // maintainAspectRatio: false,
-    scales: {
-      yAxes: [
-        {
-          ticks: {
-            beginAtZero: false,
-          },
-        },
-      ],
-      xAxes: [
-        {
-          ticks: {
-            beginAtZero: true,
-            suggestedMax: 8,
-            callback: function (value) {
-              if (value % 1 === 0) {
-                return value;
-              }
-            },
-            callback: function (value, index, values) {
-              return yLabels[value];
-            },
-          },
-        },
-      ],
-    },
-  },
-});
+// ///////////////////////////////////////////
+// // SpringBoot Chart
+// var ctx = document.getElementById("spring-boot-dev-chart");
+// // ctx.height = document.getElementById("full-stack-web-dev-chart").offsetHeight;
+// var yLabels = {
+//   0: "Starting",
+//   1: "File Structure",
+//   2: "Components",
+//   3: "Template Syntax",
+//   4: "Events and Forms",
+//   5: "Service and HTTP",
+//   6: "Input and Output",
+//   7: "Angular Routing",
+//   8: "Personal Projects",
+// };
+// var chart = new Chart(ctx, {
+//   type: "horizontalBar",
+//   data: {
+//     labels: [""],
+//     datasets: [
+//       {
+//         label: "Current Stage",
+//         data: [7],
+//         backgroundColor: ["#ba6b57"],
+//         borderColor: [],
+//         borderWidth: 1,
+//       },
+//     ],
+//   },
+//   options: {
+//     // responsive: true,
+//     // maintainAspectRatio: false,
+//     scales: {
+//       yAxes: [
+//         {
+//           ticks: {
+//             beginAtZero: false,
+//           },
+//         },
+//       ],
+//       xAxes: [
+//         {
+//           ticks: {
+//             beginAtZero: true,
+//             suggestedMax: 8,
+//             callback: function (value) {
+//               if (value % 1 === 0) {
+//                 return value;
+//               }
+//             },
+//             callback: function (value, index, values) {
+//               return yLabels[value];
+//             },
+//           },
+//         },
+//       ],
+//     },
+//   },
+// });
